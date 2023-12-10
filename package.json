@@ -1,11 +1,13 @@
 {
-  "name": "wordpress_plugin",
+  "name": "front-end-plugin-monitor",
   "version": "1.0.0",
-  "description": "A WordPress Starter React Plugin",
+  "description": "A WordPress plugin to find out which plugins you can delete without affecting the front-end.",
   "author": {
-    "name": "Drew Gauderman <drew@dpg.host>"
+    "name": "Fort Embr",
+    "email": "hello@fortembr.com",
+    "url": "https://fortembr.com"
   },
-  "homepage": "https://dpg.host",
+  "homepage": "https://fortembr.com",
   "private": true,
   "scripts": {
     "dev": "webpack serve --progress",
