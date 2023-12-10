@@ -1,2 +1,4 @@
-# plugin files
+node_modules
+wordpress_plugin
+site
 *.zip
