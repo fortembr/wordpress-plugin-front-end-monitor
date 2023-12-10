@@ -100,4 +100,18 @@ class Front_End_Plugin_Monitor_Admin {
 
 	}
 
+	public function add_plugin_admin_menu() {
+		add_options_page(
+			'Front-End Monitor Settings', 
+			'Front-End Monitor', 
+			'manage_options', 
+			'front-end-plugin-monitor', 
+			array($this, 'display_plugin_setup_page')
+		);
+	}
+	
+	public function display_plugin_setup_page() {
+		include_once('partials/front-end-plugin-monitor-admin-display.php');
+	}
+
 }
