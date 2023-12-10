@@ -16,7 +16,7 @@
  * Plugin Name:       Front-End Monitor
  * Plugin URI:        https://fortembr.com/products/wordpress-plugin-front-end-monitor
  * Description:       This identifies which plugins are being used on the front-end of your website. This tells you which plugins can be safely deleted without impacting the front-end of the website.
- * Version:           1.0.0
+ * Version:           0.0.0-alpha
  * Author:            Fort Embr
  * Author URI:        https://fortembr.com/
  * License:           GPL-2.0+
