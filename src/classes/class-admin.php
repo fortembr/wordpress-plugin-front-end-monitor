@@ -19,8 +19,8 @@ new class('wordpress_plugin_admin', filemtime(__FILE__)) extends wordpress_plugi
     public function admin_menu()
     {
         add_menu_page(
-            __('WPS Admin', $this->name),
-            __('WPS Admin', $this->name),
+            __('Front-End Monitor', $this->name),
+            __('FE Monitor', $this->name),
             'manage_options',
             $this->name,
             [$this, 'menu_page'],
@@ -63,5 +63,5 @@ new class('wordpress_plugin_admin', filemtime(__FILE__)) extends wordpress_plugi
 
         // load javascript
         $this->wp_register_script($this->name, 'plugin-private.min.js');
-    }
+    }    
 };

@@ -1,5 +1,5 @@
 {
-  "name": "front-end-plugin-monitor",
+  "name": "front_end_plugin_monitor",
   "version": "1.0.0",
   "description": "A WordPress plugin to find out which plugins you can delete without affecting the front-end.",
   "author": {
@@ -14,7 +14,8 @@
     "servePublic": "cross-env ENTRY=public webpack serve --hot --progress",
     "servePrivate": "cross-env ENTRY=private webpack serve --hot --progress",
     "watch": "webpack --watch --progress",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build:dev": "cross-env NODE_ENV=development webpack",
+    "build:prod": "cross-env NODE_ENV=production webpack"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
@@ -51,5 +52,10 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-hot-middleware": "^2.25.0",
     "write-assets-webpack-plugin": "^1.0.5"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20"
   }
 }
